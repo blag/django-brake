@@ -22,7 +22,7 @@ _PERIODS = {
     'd': 24 * 60 * 60,
 }
 
-rate_re = re.compile('(\d+)/(\d*)([smhd])')
+rate_re = re.compile(r'(\d+)/(\d*)([smhd])')
 
 
 def _split_rate(rate):
