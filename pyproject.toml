@@ -1,0 +1,34 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 61.0"]
+
+[project]
+name = "django-brake"
+version = "1.6.0"
+description = "Cache-based rate-limiting for Django."
+readme = "README.rst"
+authors = [
+    {name = "James Socol", email = "james@mozilla.com"},
+    {name = "Gavin McQuillan", email = "gavin@urbanairship.com"},
+]
+license = {text = "BSD"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Environment :: Web Environment :: Mozilla",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "django"
+]
+
+[project.urls]
+"Homepage" = "http://github.com/gmcquillan/django-brake"
+"Source Code" = "http://github.com/gmcquillan/django-brake"
+"Bug Reports" = "http://github.com/gmcquillan/django-brake/issues"
+"Package" = "https://pypi.org/project/django-brake/"
